@@ -1,4 +1,4 @@
-FROM hemtt/hemtt
+FROM hemtt/hemtt:0.6.1
 
 # Copy our entrypoint script.
 COPY entrypoint.sh /entrypoint.sh
